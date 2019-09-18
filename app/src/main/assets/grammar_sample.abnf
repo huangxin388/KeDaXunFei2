@@ -1,0 +1,8 @@
+#ABNF 1.0 UTF-8;
+language zh-CN;
+mode voice;
+
+root $main;
+$main = $place1 | $place2;
+$place1 = 前进|后退|左转|右转|大臂;
+$place2 = 小臂|爪子;
